@@ -1,6 +1,6 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/New%20Folder%202/New%20Folder/my-style.uss?fileID=7433441132597879392&amp;guid=00cd8d86242628a438c10139f74a83e8&amp;type=3#my-style" />
-    <engine:VisualElement name="VisualElement" style="flex-grow: 0; background-color: rgba(255, 0, 0, 0); align-self: auto; justify-content: flex-start; flex-direction: column; align-items: auto; flex-wrap: wrap-reverse; align-content: auto; background-position-y: center 0; background-position-x: center 0; width: 100%; height: 100%;">
+    <engine:VisualElement name="VisualElement" style="flex-grow: 0; background-color: rgba(255, 0, 0, 0); align-self: auto; justify-content: flex-start; flex-direction: column; align-items: auto; flex-wrap: wrap-reverse; align-content: auto; background-position-y: center 0; background-position-x: center 0; width: 100%; height: 100%; display: flex;">
         <engine:VisualElement style="flex-grow: 0; flex-direction: row; align-self: auto; align-content: auto; justify-content: space-evenly; align-items: flex-end; flex-wrap: nowrap; width: 100%; height: 50%;">
             <engine:VisualElement name="Image_Man" class="charactor-in charactor-out" />
             <engine:VisualElement name="Image_Robot" style="background-image: url(&quot;project://database/Assets/New%20Folder%202/New%20Folder/Hyperspace%20-%20Robot%202.png?fileID=2800000&amp;guid=50af023bbcd95d24a9bdaf27c0df76bd&amp;type=3#Hyperspace - Robot 2&quot;); width: 200px; height: 300px;" />
@@ -17,7 +17,7 @@
     </engine:VisualElement>
     <engine:VisualElement name="Container_Bottom" style="flex-grow: 1; position: absolute; background-color: rgba(0, 0, 0, 0); width: 100%; height: 100%; display: flex; border-top-left-radius: 0; border-top-right-radius: 0;">
         <engine:VisualElement name="Panel_Dark" class="dark-fade-out" />
-        <engine:VisualElement name="Panel_Bottom" class="bottom-sheet-down">
+        <engine:VisualElement name="Panel_Bottom" class="bottom-sheet-down bottom-sheet-up">
             <engine:Label text="Ominim" name="Label_Title" class="text-title" style="width: 100%; height: 100px;" />
             <engine:VisualElement name="Image" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/New%20Folder%202/New%20Folder/Hyperspace%20-%20Projector.png?fileID=2800000&amp;guid=63aeaec3998d3ac48a08085ba3fc52d5&amp;type=3#Hyperspace - Projector&quot;); width: 400px; height: 300px; align-self: center; justify-content: flex-start; align-items: auto; align-content: auto;" />
             <engine:Label text="Where can I get some?" name="Label_Description" class="text-paragraph" style="flex-shrink: 1; flex-grow: 1; width: 100%; -unity-text-align: middle-center;" />

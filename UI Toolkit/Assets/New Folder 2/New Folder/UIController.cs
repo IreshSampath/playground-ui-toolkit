@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -35,17 +36,26 @@ public class UIController : MonoBehaviour
     void OnOpenButtonClicked(ClickEvent evt)
     {
         _bottomContainer.style.display = DisplayStyle.Flex;
-        _darkPanel.AddToClassList("dark-fade-in");
         _bottomPanel.AddToClassList("bottom-sheet-up");
+        _darkPanel.AddToClassList("dark-fade-in");
+
     }
 
     void OnCloseButtonClicked(ClickEvent evt)
     {
-        _bottomContainer.style.display = DisplayStyle.None;
         //_darkPanel.AddToClassList("dark-fade-Out");
         //_bottomPanel.AddToClassList("bottom-sheet-down");
         _darkPanel.RemoveFromClassList("dark-fade-in");
         _bottomPanel.RemoveFromClassList("bottom-sheet-up");
+
+        StartCoroutine(CloseDelay());
+    }
+
+    IEnumerator CloseDelay()
+    {
+        yield return new WaitForSeconds(0.5f);
+        _bottomContainer.style.display = DisplayStyle.None;
+
     }
 
     void AnimateMan()
