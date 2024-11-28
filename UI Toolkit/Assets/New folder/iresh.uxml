@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/New%20folder/iresh.uss?fileID=7433441132597879392&amp;guid=96c1a7b3b7cdf8042a02933726e14676&amp;type=3#iresh" />
+    <ui:VisualElement name="Panel" class="panel" style="flex-grow: 1;">
+        <ui:VisualElement name="Container" style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>
