@@ -35,7 +35,7 @@
 }
 
 .text-paragraph {
-    font-size: 25px;
+    font-size: 22px;
     flex-wrap: nowrap;
     white-space: normal;
     padding-left: 14px;
@@ -43,6 +43,9 @@
     padding-bottom: 14px;
     padding-top: 14px;
     text-overflow: clip;
+    -unity-font-style: italic;
+    letter-spacing: 4px;
+    word-spacing: 57px;
 }
 
 .text-title {
@@ -66,9 +69,8 @@
     border-top-right-radius: 40px;
     flex-direction: column;
     translate: 0 100%;
-    transition-property: all;
-    transition-timing-function: ease-in-bounce;
     transition-duration: 1s;
+    transition-timing-function: ease-in-bounce;
 }
 
 .bottom-sheet-up {
@@ -88,6 +90,10 @@
     opacity: 0;
 }
 
+.dark-fade-in {
+    opacity: 1;
+}
+
 .charactor-in {
     background-image: url("project://database/Assets/New%20Folder%202/New%20Folder/Hyperspace%20-%20Floating.png?fileID=2800000&guid=f452b57474c6b8b48a1b5d740e493e9a&type=3#Hyperspace - Floating");
     width: 200px;
@@ -98,4 +104,12 @@
 
 .charactor-out {
     translate: -400px -400px;
+}
+
+.bottom-sheet-up {
+    translate: 0 0;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-bounce;
 }

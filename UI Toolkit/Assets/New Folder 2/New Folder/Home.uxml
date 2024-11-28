@@ -19,8 +19,8 @@
         <engine:VisualElement name="Panel_Dark" class="dark-fade-out" />
         <engine:VisualElement name="Panel_Bottom" class="bottom-sheet-down">
             <engine:Label text="Ominim" name="Label_Title" class="text-title" style="width: 100%; height: 100px;" />
-            <engine:VisualElement name="Image" class="text-paragraph" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/New%20Folder%202/New%20Folder/Hyperspace%20-%20Projector.png?fileID=2800000&amp;guid=63aeaec3998d3ac48a08085ba3fc52d5&amp;type=3#Hyperspace - Projector&quot;); width: 400px; height: 300px; align-self: center; justify-content: flex-start; align-items: auto; align-content: auto;" />
-            <engine:Label text="Where can I get some?" name="Label_Description" style="flex-shrink: 1; flex-grow: 1; width: 100%; -unity-text-align: middle-center;" />
+            <engine:VisualElement name="Image" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/New%20Folder%202/New%20Folder/Hyperspace%20-%20Projector.png?fileID=2800000&amp;guid=63aeaec3998d3ac48a08085ba3fc52d5&amp;type=3#Hyperspace - Projector&quot;); width: 400px; height: 300px; align-self: center; justify-content: flex-start; align-items: auto; align-content: auto;" />
+            <engine:Label text="Where can I get some?" name="Label_Description" class="text-paragraph" style="flex-shrink: 1; flex-grow: 1; width: 100%; -unity-text-align: middle-center;" />
             <engine:Button text="X" name="Button_Close" style="width: 45px; height: 45px; font-size: 38px; top: 20px; right: 20px; align-items: auto; align-self: auto; justify-content: flex-start; -unity-text-align: middle-center; transform-origin: center; position: absolute; left: auto; bottom: auto; align-content: auto; background-color: rgba(188, 188, 188, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); -unity-font-style: bold;" />
         </engine:VisualElement>
     </engine:VisualElement>
